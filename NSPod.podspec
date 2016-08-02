@@ -10,6 +10,5 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/nwios'
   s.ios.deployment_target = '8.0'
   s.source_files = 'NSPod/Classes/**/*'
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'AVFoundation'
+  s.frameworks = 'AVFoundation'
 end

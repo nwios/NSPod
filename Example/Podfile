@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSPod_Example' do
+  pod 'NSPod', :path => '../'
+
+  target 'NSPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
